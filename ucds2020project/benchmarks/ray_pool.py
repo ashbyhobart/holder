@@ -164,7 +164,6 @@ if __name__ == '__main__':
     )
     args = parser.parse_args()
 
-    ray.init(address="auto")
     
 
     main("data/x_explain.csv", "data/x_background.csv")
