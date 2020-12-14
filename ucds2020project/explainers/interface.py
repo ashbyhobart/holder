@@ -5,7 +5,7 @@ import json
 import logging
 
 import numpy as np
-
+import lightgbm
 from collections import ChainMap
 from prettyprinter import pretty_repr
 from typing import Any

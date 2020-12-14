@@ -2,6 +2,7 @@ import copy
 import logging
 import shap
 import warnings
+import lightgbm
 
 import numpy as np
 import pandas as pd

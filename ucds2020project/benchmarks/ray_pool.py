@@ -6,6 +6,7 @@ import ray
 
 import numpy as np
 import csv
+import lightgbm
 
 from explainers.kernel_shap import KernelShap
 from explainers.utils import get_filename, load_data, load_model
@@ -164,6 +165,7 @@ if __name__ == '__main__':
     )
     args = parser.parse_args()
 
+    ray.init(address="auto")
     
 
     main("data/x_explain.csv", "data/x_background.csv")

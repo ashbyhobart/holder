@@ -1,7 +1,7 @@
 import logging
 
 import numpy as np
-
+import lightgbm
 from explainers.kernel_shap import KernelShap
 from ray import serve
 from typing import Any, Dict, List

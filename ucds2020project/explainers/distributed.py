@@ -1,6 +1,7 @@
 import ray
 
 import numpy as np
+import lightgbm
 
 from functools import partial
 from scipy import sparse
